@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clickable Logos</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 50px;
+        }
+        .logo-container a {
+            text-decoration: none;
+        }
+        .logo-container img {
+            width: 100px; /* Adjust size as needed */
+            height: auto;
+            transition: transform 0.2s;
+        }
+        .logo-container img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <h2>Click on a Logo to Visit the Website</h2>
+    <div class="logo-container">
+        <a href="https://www.google.com" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google">
+        </a>
+        <a href="https://github.com" target="_blank">
+            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub">
+        </a>
+        <a href="https://stackoverflow.com" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Stack_Overflow_icon.svg" alt="Stack Overflow">
+        </a>
+    </div>
+</body>
+</html>
